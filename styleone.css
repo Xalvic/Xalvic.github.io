@@ -52,7 +52,8 @@ body {
     padding: 12px;
     border:1px black solid;
     border-radius: 50%;
-    transform: translateY(-60px)
+    transform: translateY(-60px);
+    transition: all 1s;
 }
         .lol {
             width: 40px;
@@ -61,13 +62,14 @@ body {
 
         .btn:hover {
             background-color: rgba(211, 19, 57, 0.267);
+            box-shadow: 0 0 175px 2px rgb(220, 20, 60);
         }
         .down {
 
         }
 
         .btn {
-            animation: comeOn 1s ease-out 1.5s;
+            animation: comeOn 1s ease-out 1s;
             animation-fill-mode: backwards; 
         }
 
@@ -99,7 +101,7 @@ body {
 }
 
 .container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(boxing.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(220, 20, 60, 0.568)),url(boxing.jpg);
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -121,7 +123,7 @@ body {
     background:white;
     width:30%;
     border:1px solid #d6d6d600;
-    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    box-shadow:0 3px 4px 0px rgba(0, 0, 0, 0.904);
     border-radius:3px;
     transition: 1s all; 
   }
@@ -137,7 +139,7 @@ body {
     filter:blur(0px);
     opacity:1;
     border-left: 7px solid rgb(220, 20, 60);
-    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+    box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.829);
   }
 
   .boxer {
