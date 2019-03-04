@@ -120,7 +120,7 @@ body {
     text-align: center;
     padding:30px;
     margin:2%;
-    background:white;
+    background:antiquewhite;
     width:30%;
     border:1px solid #d6d6d600;
     box-shadow:0 3px 4px 0px rgba(0, 0, 0, 0.904);
@@ -133,18 +133,19 @@ body {
     transform: scale(.98);
     box-shadow:none;
   }
+
   .container:hover .box:hover{
     letter-spacing: 8px;
     transform:scale(1);
     filter:blur(0px);
     opacity:1;
     border-left: 7px solid rgb(220, 20, 60);
-    box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.829);
+    box-shadow:0 8px 20px 4px rgba(0, 0, 0, 0.829);
   }
 
   .boxer {
     text-decoration: none;
-    color: #2d3436;
+    color: rgb(220, 20, 60);
   }
   /*===========================================================================================================================================*/
 /*============================================================ SECTION END ==================================================================*/
